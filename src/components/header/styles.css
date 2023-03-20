@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+
+html {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  height: 100vh;
+  font-family: "Source Sans Pro";
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+header {
+  background-color: #7159c1;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 90%;
+  max-width: 1220px;
+
+  margin: auto;
+}
+
+header .logo {
+  height: 50px;
+  color: #fff;
+  margin: 30px 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+}
